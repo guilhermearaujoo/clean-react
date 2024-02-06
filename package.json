@@ -8,6 +8,7 @@
     "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- -o",
     "test:ci": "npm test -- --coverage",
+    "test:clear": "jest --clearCache",
     "prepare": "husky install",
     "lint": "eslint --fix"
   },
